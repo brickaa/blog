@@ -6,19 +6,25 @@ ul {
 	position: absolute;
 	padding: 0;
 }
-li.social {
+.social {
 	display: inline;
 	border: 1px dashed pink;
-	width: 33%;
 	padding: 1em;
-	margin: 0.25em;
 }
-
+ol {
+	display: inline-block;
+}
 img {
 	margin: 1em;
 }
-img.me {
+.me {
 	height: 250px;
 	margin: 0 1em;
+	display: inline-block;
+}
+.date {
+	display: inline;
+}
+.contact {
 	display: inline-block;
 }
