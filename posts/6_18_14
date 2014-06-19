@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" "style.css">
+		<link rel="stylesheet" href="../style.css">
 	</head>
 
 	<body>
 		<h1>Becca Aaronson</h1>
-		<div>
-			<img src="me.jpg" class="me">
-				<ul>
+		<ul>
 					<li class="social">IG: hello_becca </li>
 					<li class="social">TW: becca_aa </li>
 					<li class="social">GH: brickaa </li>
@@ -21,6 +19,6 @@
 		<p>I'd really like to get out of here and have a drink though.</p>
 		<p>Good thing we're going next door to do that soon.</p>
 		<p>Ok. Bye ladies and gents.</p>
-		<img src="giphy.gif">
+		<img src="../giphy.gif">
 	</body>
 </html>
