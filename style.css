@@ -3,37 +3,56 @@ body {
 }
 h1 {
 	display: inline-block;
-	margin-top: 0.1em;
+	margin: 0.1em 0;
 	padding-right: 1em;
 }
-ul {
-	display: inline-block;
-	position: absolute;
-	padding: 0;
+h2 {
+	margin: 1em 0.25em;
+	font-size: 1em;
+	font-weight: bold;
 }
-.social {
-	display: inline;
-	border: 1px dashed pink;
-	padding: 1em;
-}
+
 ol {
 	display: inline-block;
 	margin: 0;
 }
-
+p {
+	margin: 1em;
+	float: left;
+}
+ul {
+	margin: 0 0 0.5em 0;
+	padding: 0;
+}
+a {
+	color: #008080;
+	text-decoration: none;
+}
+a:visited {
+	color: #008080;
+}
+a:hover {
+	color: #79CDCD;
+}
+.nav-bar li {
+	display: inline-block;
+	padding: 0.25em 1em;
+	font-family: Helvetica;
+	font-size: 18px;
+	border: 1px dashed pink;
+	margin: 0 0.5em 0 0;
+}
 .me {
 	height: 250px;
-	display: inline-block;
+	float: left;
 }
 .date {
 	display: inline;
 }
-.contact {
-	display: inline-block;
-}
 .about-me {
 	display: inline-block;
 }
-p {
-	margin: 1em 0 0 0;
+.social {
+	display: inline-block;
+	padding: 0 1em;
 }
