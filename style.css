@@ -46,8 +46,10 @@ a:hover {
 	height: 250px;
 	float: left;
 }
-.date {
-	display: inline;
+.date p {
+	display: inline-block;
+	margin: 0;
+	float: none;
 }
 .about-me {
 	display: inline-block;
@@ -55,4 +57,11 @@ a:hover {
 .social {
 	display: inline-block;
 	padding: 0 1em;
+}
+.post p {
+	margin: 0.5em;
+	font-family: Helvetica;
+	font-size: 16px;
+	color: #333333;
+	float: none;
 }
